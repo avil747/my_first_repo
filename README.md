@@ -19,3 +19,11 @@ git remote show
 ```sh
 git push -u origin main
 ```
+Просмотр удаленных репозиториев на чтение (fetch) и записи (push):
+```sh
+git remote -v
+```
+Просмотр настроек удаленного репозитория (origin):
+```sh
+git remote show origin
+```
